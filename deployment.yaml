@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: laz1e/employee
+      app: mployee
   replicas: 2 # Number of replicas that will be created for this deployment
   template:
     metadata:
       labels:
-        app: laz1e/employee
+        app: employee
     spec:
       containers:
         - name: laz1e/employee
